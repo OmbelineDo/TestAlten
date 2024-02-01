@@ -1,0 +1,26 @@
+
+.card {
+    margin-top: 70px;
+    .inventory{
+      margin-bottom: 20px;
+    }
+    .rating{
+      margin-top: 20px;
+    }
+    .button{
+      margin-top: 10px;
+    }
+    .category{
+      text-align: left;
+    }
+  
+  }
+  
+  .grid-item {
+    width: 30%; 
+    margin: 10px; 
+    display: inline-block; 
+    vertical-align: top; 
+    border : 1px solid #f5f5f5;
+  }
+  
