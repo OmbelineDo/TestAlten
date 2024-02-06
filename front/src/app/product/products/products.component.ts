@@ -13,6 +13,7 @@ export class ProductsComponent implements OnInit {
   sortOrder: number;
   sortKey: string;
   sortOptions: SelectItem[];
+  
   constructor(private productService : ProductService) { }
 
   ngOnInit(): void {

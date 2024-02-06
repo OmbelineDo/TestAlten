@@ -10,7 +10,12 @@
       <ng-template pTemplate="header">
         <div style="display: flex; align-items: center;">
           <p-dropdown [options]="sortOptions" [(ngModel)]="sortKey" placeholder="Sort By" (onChange)="onSortChange($event)"></p-dropdown>    
-          <p-dataViewLayoutOptions></p-dataViewLayoutOptions>
+          
+          <div style="margin-left: 500px;">
+            
+          <p-dataViewLayoutOptions></p-dataViewLayoutOptions></div> 
+          
+
         </div>
       </ng-template>
       
